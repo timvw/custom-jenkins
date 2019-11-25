@@ -1,0 +1,10 @@
+unclassified:
+  bitbucketEndpointConfiguration:
+    endpoints:
+    - bitbucketServerEndpoint:
+        callCanMerge: false
+        credentialsId: "jenkins-git-creds"
+        displayName: "bitbucket"
+        manageHooks: true
+        serverUrl: "${BB_URL}"
+        webhookImplementation: NATIVE
